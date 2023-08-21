@@ -23,6 +23,7 @@ a {
 }
 .filter-menu {
   color: #5a4fcf;
+  cursor: pointer;
 }
 .nav-menu {
   color: black;

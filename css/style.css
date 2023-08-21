@@ -9,11 +9,14 @@ a {
 .home-logo {
   font-weight: bold;
 }
-.logo {
+.logo,
+.card-content,
+.card-content-title {
   color: navy;
 }
 
-.address-menu {
+.address-menu,
+.card-content-text {
   font-family: Arial, Helvetica, sans-serif;
 
   color: #708090;

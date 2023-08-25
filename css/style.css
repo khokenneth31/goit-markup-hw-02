@@ -17,102 +17,90 @@
   --grey: #2e2f42;
   --dairy: #fcfcfc;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
 ul {
   list-style: none;
 }
 /*logo*/
 .home-logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 /*address*/
-.address-menu {
-  color: var(--slate, #434455);
+
+address {
+  font-style: normal;
+}
+.address-link {
+  color: var(--slate);
   /* Body */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-}
-body {
-  font-family: "roboto", sans-serif;
+  text-decoration: none;
 }
 /*hero*/
 .hero-text {
-  color: var(--white, #fff);
+  color: var(--white);
   text-align: center;
   /* Header 1 */
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
 .index-section {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   text-align: center;
   /* Header 2 */
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 /*index section 1*/
 .feature-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   /* Header 3 */
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
 }
 .feature-title-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   /* Body */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 .project-content-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   /* Header 3 */
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
 }
 .project-content-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   /* Body */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 .logo {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
@@ -120,71 +108,64 @@ a {
 }
 .filter-menu-order {
   cursor: pointer;
-  color: var(--white, #fff);
+  color: var(--white);
   /* Button Text */
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
 .filter-menu {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   text-align: center;
   /* Button Text */
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.nav-menu {
-  color: var(--navyblue, #2e2f42);
+a {
+  color: var(--navyblue);
+  text-decoration: none;
+}
+.nav-link {
   /* Body Medium */
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 
 .team-content-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   text-align: center;
   /* Header 2 */
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .team-content-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   text-align: center;
   /* Body */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 .foot-logo {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .footer-text {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   /* Body */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }

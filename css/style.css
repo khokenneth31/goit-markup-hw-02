@@ -27,7 +27,7 @@ ul {
 /*logo*/
 .home-logo {
   color: var(--navyblue);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
@@ -99,7 +99,7 @@ address {
 }
 .logo {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
@@ -108,6 +108,7 @@ address {
 }
 .filter-menu-order {
   cursor: pointer;
+  background-color: var(--iris);
   color: var(--white);
   /* Button Text */
   font-size: 16px;
@@ -115,14 +116,22 @@ address {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
+.filter-menu-order:hover {
+  background-color: var(--ocean);
+}
 .filter-menu {
   color: var(--iris);
+  background-color: var(--cloud);
   text-align: center;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+}
+.filter-menu:hover {
+  color: var(--white);
+  background-color: var(--ocean);
 }
 a {
   color: var(--navyblue);
@@ -155,7 +164,7 @@ a {
 }
 .foot-logo {
   color: var(--cloud);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px; /* 116.667% */

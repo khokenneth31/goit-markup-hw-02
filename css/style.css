@@ -133,6 +133,9 @@ address {
   color: var(--white);
   background-color: var(--ocean);
 }
+button {
+  cursor: pointer;
+}
 a {
   color: var(--navyblue);
   text-decoration: none;
